@@ -1,0 +1,12 @@
+</br>
+</br>
+</br>
+<%= Time.now %>
+</br>
+<% @usernames.each do |username| %>
+  <li>
+    <%= username %><a href = '/new'>  delete </a>
+  </li>
+<% end %>
+</br>
+<a href = '/new'> new </a>
